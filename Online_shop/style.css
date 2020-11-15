@@ -1,0 +1,261 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container-fluid {
+    width: 100%;
+    max-width: 100%;
+}
+
+.section-bg-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 0 120px;
+}
+
+.container.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 160px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 2em;
+
+}
+
+.logo>span {
+    color: green;
+}
+
+.a-link {
+    text-align: left;
+    padding: 30px;
+    font-size: 30px;
+
+}
+
+.next {
+    text-align: right;
+    font-size: medium;
+    padding: 30px;
+    text-align: left;
+}
+
+.btn {
+    background-color: gray;
+    border: black;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+    opacity: 0.8;
+}
+
+.headline-wrapper {
+    padding: 0 20%;
+}
+
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.image-wrapper {
+    width: 100px;
+}
+
+.image-wrapper>img {
+    width: 100%;
+    display: block;
+}
+
+.search-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 380px;
+    margin: 0 auto;
+}
+
+.search-wrapper>.btn-search {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+}
+
+.search-wrapper>.text-search {
+    font-size: 100%;
+
+    display: inline-block;
+    padding: 5px 12px 5px 30px;
+    width: 70%;
+    box-sizing: border-box;
+}
+.table-wrapper{
+    
+    padding: 110px 200px;  
+    justify-content: center;
+}
+.card{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 8px;
+    height: 10px;
+    width: 80px;
+    margin: 10px 70px; 
+    transform: scale(2.5);
+    
+    
+    
+    
+}
+
+.each-table1 {
+    background-color: palevioletred;
+    width: 400px;
+    color: white;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+.image1{
+    padding-right: 2px;
+    margin: -40px 260px;
+    
+}
+.each-table2{
+    margin: -200px 700px;
+}
+.desp2{
+    background-color:orange;
+    color: white;
+    width: 400px;
+    height: 180px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    
+}
+.image2{
+    padding-right: 2px;
+    margin: -30px 260px;
+    
+}
+.each-table3{
+        margin: -200px 1400px;
+}
+.desp3{
+    background-color:purple;
+    color: white;
+    width: 400px;
+    height: 180px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.image3{
+    
+    margin: -120px 300px;  
+}
+.card-button3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 8px;
+    height: 10px;
+    width: 50px;
+    margin: 110px 60px; 
+    transform: scale(2.5);
+    
+}
+.item {
+    margin: 270px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .table-price {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+  }
+  .tr-price {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-bottom: 100px;
+  }
+  .tr-price td {
+    width: 20%;
+    padding: 20px;
+    border: solid black 2px;
+  }
+  .category {
+    padding-top: 50px;
+  }
+  .category-center {
+    display: flex;
+    align-items: center;
+  }
+  .price-1 {
+    color: red;
+    text-decoration: line-through;
+  }
+  .price-2 {
+    color: green;
+  }
+  .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .discount {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: orange;
+    margin-left: 120px;
+  }
+  .tr-price:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .tr-price:nth-child(3) td {
+    display: flex;
+    align-items: center;
+    border: none;
+    width: 100px;    
+    height: 7px;
+    background-color: rgb(30, 177, 152);
+    border-radius: 8px;
+  }
+  
